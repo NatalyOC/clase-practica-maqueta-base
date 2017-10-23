@@ -1,7 +1,41 @@
-/*setear*/
+/*setear nuestros archivos*/
 body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+}
+
+/* clases reutilizable*/
+.text-uppercase{
+    text-transform: uppercase;
+}
+.box-header{
+    display: inline-block;
+
+}
+
+/* clases especificas*/
+.logo-header{
+    width: 200px;
+}
+
+li{
+    display:inline;
+    list-style: none;
+    
+}
+
+li a{
+    color:inherit;
+    text-decoration: none;
+}
+header{
+    position: relative;
+}
+nav{
+    position: absolute;
+    right: 5%;/*en base al padre*/
+    top: 50%;
+    transform: translateY(-50%);
 }
